@@ -1,0 +1,92 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#mere{
+    width: 900px;
+    margin: 0 auto;
+    top: -150px;
+}
+
+.phrase{
+    font-size: 6em;
+    text-align: center;
+}
+
+span{
+    color: red;
+}
+
+p{
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: -50px;
+}
+
+.element{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+#generate{
+    width: 90%;
+    margin: 50px;
+    height: 45px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    background-color: red;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+#generate:hover{
+    background-color: rgb(180, 3, 3);
+}
+
+#generate{
+    width: 90%;
+    margin: 50px;
+    height: 45px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    background-color: red;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+#password{
+    width: 90%;
+    height: 45px;
+    border-radius: 30px;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 1em;
+    text-align: center;
+}
+
+.toggle-password {
+    cursor: pointer;
+}
+
+.see_pswrd{
+    display: flex;
+}
+
+.toggle-password{
+    width: 50px;
+    margin-left: 20px;
+    border-radius: 30px;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background-color: red;
+    border: none;
+}
